@@ -1,0 +1,168 @@
+
+You are reading notes from Unit 1. Read the following text and generate 12 thoughtful and varied question-answer pairs. 
+Format it clearly like this:
+
+Q1: What is HTML?
+A1: HTML stands for HyperText Markup Language...
+
+Q2: ...
+A2: ...
+
+Text:
+ 30 P a r t  I :  C o r e  M a r k u p  30 P a r t  I :  C o r e  M a r k u p
+The full syntax of the elements allowed in the body  element is a bit more involved than 
+the full syntax of the head . This diagram shows what is directly included in the body:
+body
+p
+h1, h2, h3, h4, h5, h6
+div
+ul, ol
+dt, dd
+pre
+blockquote
+address
+fieldset
+table
+ins
+<!-- -->dl
+hr
+noscript
+script
+delli
+ C h a p t e r  1 :  T r a d i t i o n a l  H T M L  a n d  X H T M L  31  C h a p t e r  1 :  T r a d i t i o n a l  H T M L  a n d  X H T M L  31PART IGoing deeper into the full syntax in a single diagram is unreasonable to present. Just as 
+an example, take the p element and continue to expand, keeping in mind that these 
+elements will also loop back on each other and expand out as well:
+While it might be difficult to meaningfully present the entire syntax of HTML 
+graphically in a diagram, the diagram presented here should drive home the point that 
+HTML is quite structured and the details of how elements may be used are quite clear. Now that you have some insight into the syntax of markup, the next section discusses how browsers deal with it.
+Browsers and (X)HTML
+When a browser reads a marked-up document, such as the “hello world” example repeated here,
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"  
+"http://www.w3.org/TR/html4/strict.dtd"> 
+<html> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+<title>Hello HTML World</title> <!-- Simple hello world in HTML 4.01 strict example -->  
+</head> <body> <h1>Welcome to the World of HTML</h1> p
+type text
+a
+br
+span
+bdo
+map
+object
+img
+tt
+i
+bbig
+small
+em
+strong
+dfn
+code
+q
+samp
+kbd
+var
+citeabbr
+acronym
+sub
+sup
+input*
+select*
+textarea*
+label*
+button*
+<!-- --> 
+(*) when the element is ultimately a descendent of a form element
+ 32 P a r t  I :  C o r e  M a r k u p  32 P a r t  I :  C o r e  M a r k u p
+<hr> 
+<p>HTML <em>really</em> isn't so hard!</p> 
+<p>Soon you will &hearts; using HTML.</p> <p>You can put lots of text here if you want. We could go on and on with fake text for you to read, but let's get back to the book.</p> </body> </html>
+it builds a parse tree to interpret the structure of the document, possibly like this:
+DOCTYPE
+HTML
+HEAD
+META
+TITLE
+BODY
+H1
+HR
+P
+“HTML”
+EM
+P
+PHTML ELEMENT
+Text Node
+<!-- comment -->
+<!-- simple hello world in HTML 4.01 strict example -->
+“Welcome to the world of HTML”
+“Really”
+“isn’t so hard!”
+“soon you will &hearts; using HTML.”
+“You could put lots of text here if you want. We
+could go on and on with fake text for you
+to read, but let’s get back to the book.”“Hello HTML World”Legend
+ C h a p t e r  1 :  T r a d i t i o n a l  H T M L  a n d  X H T M L  33  C h a p t e r  1 :  T r a d i t i o n a l  H T M L  a n d  X H T M L  33PART IThese parse trees, often called DOM (Document Object Model) trees, are the browsers’ 
+interpretation of the markup provided and are integral to determining how to render the 
+page visually using both default (X)HTML style and any 
+
+Q&A:
+
+Q1: What is the difference between the head and body elements in HTML?
+A1: The head element is used to define the HTML header, while the body element is used to define the content of the page.
+
+Q2: What is the difference between the p element and the div element in HTML?
+A2: The p element is used to define paragraphs, while the div element is used to define blocks of content.
+
+Q3: What is the difference between the h1, h2, h3, h4, h5, h6, and div elements in HTML?
+A3: The h1, h2, h3, h4, h5, h6, and div elements are all used to define headings, while the p element is used to define paragraphs.
+
+Q4: What is the difference between the script and delli elements in HTML?
+A4:The script element is used to define JavaScript code, while the delli element is used to define a link to a file.
+
+Q5: What is the difference between the address and fieldset elements in HTML?
+A5: The address element is used to define the address of a website, while the fieldset element is used to define a group of form fields.
+
+Q6: What is the difference between the table and ins elements in HTML?
+A6: The table element is used to define a table, while the ins element is used to define an image.
+
+Q7: What is the difference between the dt, dd, and pre elements in HTML?
+A7: The dt element is used to define a datatable, while the dd element is used to define a data table cell, and the pre element is used to define a preformatted text element.
+
+Q8: What is the difference between the ul, ol, and dl elements in HTML?
+A8: The ul element is used to define an unordered list, while the ol element is used to define an ordered list, and the dl element is used to define a data list.
+
+Q9: What is the difference between the hr and noscript elements in HTML?
+A9: The hr element is used to define a horizontal rule, while the noscript element is used to define a script that is not to be executed.
+
+Q10: What is the difference between the script and delli elements in HTML?
+A10: The script element is used to define JavaScript code, while the delli element is used to define a link to a file.
+
+Q11: What is the difference between the address and fieldset elements in HTML?
+A11: The address element is used to define the address of a website, while the fieldset element is used to define a group of form fields.
+
+Q12: What is the difference between the table and ins elements in HTML?
+A12: The table element is used to define a table, while the ins element is used to define an image.
+
+Q13: What is the difference between the dt, dd, and pre elements in HTML?
+A13: The dt element is used to define a datatable, while the dd element is used to define a data table cell, and the pre element is used to define a preformatted text element.
+
+Q14: What is the difference between the ul, ol, and dl elements in HTML?
+A14: The ul element is used to define an unordered list, while the ol element is used to define an ordered list, and the dl element is used to define a data list.
+
+Q15: What is the difference between the hr and noscript elements in HTML?
+A15: The hr element is used to define a horizontal rule, while the noscript element is used to define a script that is not to be executed.
+
+Q16: What is the difference between the script and delli elements in HTML?
+A16: The script element is used to define JavaScript code, while the delli element is used to define a link to a file.
+
+Q17: What is the difference between the address and fieldset elements in HTML?
+A17: The address element is used to define the address of a website, while the fieldset element is used to define a group of form fields.
+
+Q18: What is the difference between the table and ins elements in HTML?
+A18: The table element is used to define a table, while the ins element is used to define an image.
+
+Q19: What is the difference between the dt, dd, and pre elements in HTML?
+A19. The dt element is used to define a datatable, while the dd element is used to define a data table cell, and the pre element is used to define a preformatted text element.
+
+Q20: What is the difference between the ul, ol, and dl elements in HTML?
+A20: The ul element is used to define an unordered list, while the ol element is used to define an ordered list, and the dl element is used to define a data list.

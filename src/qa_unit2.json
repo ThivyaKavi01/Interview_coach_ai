@@ -1,0 +1,11 @@
+{
+    "What is HTML?": "HTML stands for HyperText Markup Language...",
+    "...": "...",
+    "What is HTML5?": "HTML5 is a new version of HTML that is designed to improve the user experience on the web.",
+    "Can you summarize the goals of HTML5 and provide a roadmap for the element reference?": "HTML5's goals are to provide a more user-friendly experience on the web, codify common practices, and document how browsers should deal with our imperfect markup. The element reference is a roadmap for the new features and changes in HTML5.",
+    "Can you provide an example of a flawed markup that violates HTML5's syntax?": "The example you provided is a flawed markup that violates HTML5's syntax.",
+    "Can you explain the difference between HTML5 and HTML4?": "HTML5 is a new version of HTML that is designed to improve the user experience on the web. HTML4 is the previous version of HTML that is still widely used.",
+    "Can you explain the concept of validation in HTML5 and why it is not defined as an SGML or XML application?": "Validation in HTML5 is not defined as an SGML or XML application because of the non-SGML/XML basis for HTML5.",
+    "Can you provide an example of a new feature in HTML5 that is not yet implemented in browsers?": "The new feature in HTML5 that is not yet implemented in browsers is the use of the <danger> tag.",
+    "Can you explain the concept of HTML5's \"conformance checker\" and how it provides practical value?": "The HTML5 \"conformance checker\" provides practical value because it checks for conformance to the specification, which provides the same value as validation."
+}

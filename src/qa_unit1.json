@@ -1,0 +1,13 @@
+{
+    "What is HTML?": "HTML stands for HyperText Markup Language...",
+    "...": "...",
+    "What is the difference between the head and body elements in HTML?": "The head element is used to define the HTML header, while the body element is used to define the content of the page.",
+    "What is the difference between the p element and the div element in HTML?": "The p element is used to define paragraphs, while the div element is used to define blocks of content.",
+    "What is the difference between the h1, h2, h3, h4, h5, h6, and div elements in HTML?": "The h1, h2, h3, h4, h5, h6, and div elements are all used to define headings, while the p element is used to define paragraphs.",
+    "What is the difference between the script and delli elements in HTML?": "The script element is used to define JavaScript code, while the delli element is used to define a link to a file.",
+    "What is the difference between the address and fieldset elements in HTML?": "The address element is used to define the address of a website, while the fieldset element is used to define a group of form fields.",
+    "What is the difference between the table and ins elements in HTML?": "The table element is used to define a table, while the ins element is used to define an image.",
+    "What is the difference between the dt, dd, and pre elements in HTML?": "The dt element is used to define a datatable, while the dd element is used to define a data table cell, and the pre element is used to define a preformatted text element.",
+    "What is the difference between the ul, ol, and dl elements in HTML?": "The ul element is used to define an unordered list, while the ol element is used to define an ordered list, and the dl element is used to define a data list.",
+    "What is the difference between the hr and noscript elements in HTML?": "The hr element is used to define a horizontal rule, while the noscript element is used to define a script that is not to be executed."
+}
