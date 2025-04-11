@@ -59,8 +59,8 @@ def retrieve_entire_pdf_text_by_filename(filename):
 
 if __name__ == "__main__":
     # Paths to both PDFs
-    pdf1 = "C:/Users/DELL/Desktop/assis/html_ref.pdf"
-    pdf2 = "C:/Users/DELL/Desktop/assis/html2.pdf"
+    pdf1 = "C:/Users/DELL/Desktop/assis/src/html_ref.pdf"
+    pdf2 = "C:/Users/DELL/Desktop/assis/src/html2.pdf"
 
     # Step 1: Store both PDFs in vector DB
     store_pdf_in_vector_db([pdf1, pdf2])

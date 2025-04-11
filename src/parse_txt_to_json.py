@@ -28,6 +28,6 @@ try:
     with open(json_file, "w", encoding="utf-8") as f:
         json.dump(qa_dict, f, indent=4, ensure_ascii=False)
 
-    print(f"✅ Parsed and saved updated Q&A to {json_file}")
+    print(f" Parsed and saved updated Q&A to {json_file}")
 except FileNotFoundError:
-    print(f"❌ Could not find file: {filename}")
+    print(f" Could not find file: {filename}")

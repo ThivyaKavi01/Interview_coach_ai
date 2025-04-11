@@ -162,7 +162,7 @@ Q18: What is the difference between the table and ins elements in HTML?
 A18: The table element is used to define a table, while the ins element is used to define an image.
 
 Q19: What is the difference between the dt, dd, and pre elements in HTML?
-A19. The dt element is used to define a datatable, while the dd element is used to define a data table cell, and the pre element is used to define a preformatted text element.
+A19: The dt element is used to define a datatable, while the dd element is used to define a data table cell, and the pre element is used to define a preformatted text element.
 
 Q20: What is the difference between the ul, ol, and dl elements in HTML?
 A20: The ul element is used to define an unordered list, while the ol element is used to define an ordered list, and the dl element is used to define a data list.

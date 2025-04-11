@@ -88,7 +88,7 @@ if __name__ == "__main__":
 
     for unit, filename in pdfs.items():
         print(f"\n Processing PDF: {filename}...\n")
-        pdf_path = f"C:/Users/DELL/Desktop/assis/{filename}"
+        pdf_path = f"C:/Users/DELL/Desktop/assis/src/{filename}"
 
         if not os.path.exists(pdf_path):
             print(f" File not found: {pdf_path}")
