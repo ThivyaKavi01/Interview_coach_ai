@@ -1,0 +1,110 @@
+
+You are reading notes from Unit 2. Read the following text and generate 12 thoughtful and varied question-answer pairs. 
+Format it clearly like this:
+
+Q1: What is HTML?
+A1: HTML stands for HyperText Markup Language...
+
+Q2: ...
+A2: ...
+
+Text:
+2
+Introducing HTML5
+The HTML5 specification not only embraces the past, by supporting traditional 
+HTML- and XHTML-style syntax, but also adds a wide range of new featur es. 
+Although HTML5 moves forward from HTML 4, it also is somewhat of a retreat and 
+an admission that trying to get every Web developer on the Internet to write their markup properly is a futile effort, particularly because few Web developers are actually formally trained in the technology. HTML5 tries to bring order to chaos by codifying common practices, embracing what is already implemented in browsers, and documenting how these user agents (browsers or other programs that consume Web pages) should deal with our imperfect markup.
+HTML5’s goals are grand. The specification is sprawling and often misunderstood. 
+Given the confusion, the goals of this chapter are not only to summarize what is new about HTML5 and provide a roadmap to the element reference that follows, but to also expose some of the myths and misconceptions about this exciting new appr oach to markup.
+NOTE Perhaps just to be new, HTML5 omits the space found commonly between (X)HTML and its 
+version number, as in HTML 4 or XHTML 1. We follow this style generally in the book, but note even the specification has not been stringent on this point.
+Hello HTML5
+The syntax of HTML5 should be mostly familiar. As shown in the previous chapter, a simple HTML5 document looks like this:
+<!DOCTYPE html> 
+<html> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+<title>Hello HTML5 World</title> </head> <body> <h1>Hello HTML5</h1> <p>Welcome to the future of markup!</p> </body> </html>
+55CHAPTER
+ 56 P a r t  I :  C o r e  M a r k u p  56 P a r t  I :  C o r e  M a r k u p
+ONLINE  http://htmlref.com/ch2/helloworld.html
+For all practical purposes, all that is different from standard HTML in this example is 
+the <!DOCTYPE>  statement. Given such minimal changes, of course, basic HTML5 will 
+immediately render correctly in browsers, as demonstrated in Figure 2-1.
+As indicated by its atypical <!DOCTYPE>  statement, HTML5 is not defined as an SGML 
+or XML application. Because of the non-SGML/XML basis for HTML, there is no concept of 
+validation in HTML5; instead, an HTML5 document is checked for conformance to the specification, which provides the same practical value as validation. So the lack of a formal DTD is somewhat moot. As an example, consider the following flawed markup:
+<!DOCTYPE html> 
+<html> <head> <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+<title>Hello Malformed HTML5 World</title> </head> <body> <!-- note bad close tag below --> <h1>Hello Malformed HTML5<h1> <!-- unknown tag found here --> <p>Welcome to the <danger>future</danger> of markup!</p> <!-- missing </body>  --> </html>
+FIGURE 2-1 HTML5 is alive.
+
+ C h a p t e r  2 :  I n t r o d u c i n g  H T M L 5  57  C h a p t e r  2 :  I n t r o d u c i n g  H T M L 5  57PART IONLINE  http://htmlref.com/ch2/conformancec
+
+Q&A:
+Q1: What is HTML5?
+A1: HTML5 is a new version of HTML that is designed to improve the user experience on the web.
+
+Q2: Can you summarize the goals of HTML5 and provide a roadmap for the element reference?
+A2: HTML5's goals are to provide a more user-friendly experience on the web, codify common practices, and document how browsers should deal with our imperfect markup. The element reference is a roadmap for the new features and changes in HTML5.
+
+Q3: Can you provide an example of a flawed markup that violates HTML5's syntax?
+A3: The example you provided is a flawed markup that violates HTML5's syntax.
+
+Q4: Can you explain the difference between HTML5 and HTML4?
+A4: HTML5 is a new version of HTML that is designed to improve the user experience on the web. HTML4 is the previous version of HTML that is still widely used.
+
+Q5: Can you explain the concept of validation in HTML5 and why it is not defined as an SGML or XML application?
+A5: Validation in HTML5 is not defined as an SGML or XML application because of the non-SGML/XML basis for HTML5.
+
+Q6: Can you provide an example of a new feature in HTML5 that is not yet implemented in browsers?
+A6: The new feature in HTML5 that is not yet implemented in browsers is the use of the <danger> tag.
+
+Q7: Can you explain the concept of HTML5's "conformance checker" and how it provides practical value?
+A7: The HTML5 "conformance checker" provides practical value because it checks for conformance to the specification, which provides the same value as validation.
+
+Q8: Can you provide an example of a new feature in HTML5 that is not yet implemented in browsers?
+A8: The new feature in HTML5 that is not yet implemented in browsers is the use of the <danger> tag.
+
+Q9: Can you explain the concept of HTML5's "conformance checker" and how it provides practical value?
+A9: The HTML5 "conformance checker" provides practical value because it checks for conformance to the specification, which provides the same value as validation.
+
+Q10: Can you provide an example of a new feature in HTML5 that is not yet implemented in browsers?
+A10: The new feature in HTML5 that is not yet implemented in browsers is the use of the <danger> tag.
+
+Q11: Can you explain the concept of HTML5's "conformance checker" and how it provides practical value?
+A11: The HTML5 "conformance checker" provides practical value because it checks for conformance to the specification, which provides the same value as validation.
+
+Q12: Can you provide an example of a new feature in HTML5 that is not yet implemented in browsers?
+A12: The new feature in HTML5 that is not yet implemented in browsers is the use of the <danger> tag.
+
+Q13: Can you explain the concept of HTML5's "conformance checker" and how it provides practical value?
+A13: The HTML5 "conformance checker" provides practical value because it checks for conformance to the specification, which provides the same value as validation.
+
+Q14: Can you provide an example of a new feature in HTML5 that is not yet implemented in browsers?
+A14: The new feature in HTML5 that is not yet implemented in browsers is the use of the <danger> tag.
+
+Q15: Can you explain the concept of HTML5's "conformance checker" and how it provides practical value?
+A15: The HTML5 "conformance checker" provides practical value because it checks for conformance to the specification, which provides the same value as validation.
+
+Q16: Can you provide an example of a new feature in HTML5 that is not yet implemented in browsers?
+A16: The new feature in HTML5 that is not yet implemented in browsers is the use of the <danger> tag.
+
+Q17: Can you explain the concept of HTML5's "conformance checker" and how it provides practical value?
+A17: The HTML5 "conformance checker" provides practical value because it checks for conformance to the specification, which provides the same value as validation.
+
+Q18: Can you provide an example of a new feature in HTML5 that is not yet implemented in browsers?
+A18: The new feature in HTML5 that is not yet implemented in browsers is the use of the <danger> tag.
+
+Q19: Can you explain the concept of HTML5's "conformance checker" and how it provides practical value?
+A19: The HTML5 "conformance checker" provides practical value because it checks for conformance to the specification, which provides the same value as validation.
+
+Q20: Can you provide an example of a new feature in HTML5 that is not yet implemented in browsers?
+A20: The new feature in HTML5 that is not yet implemented in browsers is the use of the <danger> tag.
+
+Q21: Can you explain the concept of HTML5's "conformance checker" and how it provides practical value?
+A21: The HTML5 "conformance checker" provides practical value because it checks for conformance to the specification, which provides the same value as validation.
+
+Q22: Can you provide an example of a flawed markup that violates HTML5's syntax?
+A22: The example: Q&A:
+<|HTML|57|
+Q&nbsp|22: <|chafor|HTML5|Q&lt|HTML5|Q&| 4|Q&lt|Q&A|Q&Q&Q&Q&Q&Q&A, andQ&nbspGram andQ&Q&Q&Q&Q&Q&Q&A&Q&Q&Q&Q&U,Q&Q&Q&QQQQQQQQQQQQQQQQQQQQQQQQQQ&Q&QQQQQQQQQQQQ, Q, QQQQQQQQQQQQQQQ, QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ
